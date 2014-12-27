@@ -7,8 +7,9 @@ categories:
 ---
 ###中文可以吗？
 #####真是一顿折腾！
-首先要安装配置yuby1.9.3和编译工具dkit，这是必须的，
+首先要安装配置ruby1.9.3和编译工具dkit，这是必须的，
 因为要使用ruby编译octopress。
 
 然后使用git把octopress clone下来，
-在github上创建一个格式为yourname.github.com的repository
+在github上创建一个命名格式为yourname.github.io的repository。
+
