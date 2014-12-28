@@ -13,3 +13,5 @@ categories:
 然后使用git把octopress clone下来，
 在github上创建一个命名格式为yourname.github.io的repository。
 
+无法更新到github是咋回事
+
