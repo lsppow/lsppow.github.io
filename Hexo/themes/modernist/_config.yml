@@ -1,0 +1,30 @@
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+rss: /atom.xml
+
+archive_date_format: MMM DD
+fancybox: true
+
+widgets:
+- category
+- tagcloud
+- recent_posts
+
+widgets_pos_right: true
+
+share:
+  enable: true
+  qq: true
+
+gotop:
+  enable: true
+  soll_top: 350
+  speed: 800
+
+duoshuo_shortname: liudl
+
+google_analytics:
+baidu_tongji: true
+favicon: /favicon.ico
