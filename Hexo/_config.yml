@@ -72,4 +72,4 @@ deploy:
   type: git
   repository: git@github.com:liudonglei/liudonglei.github.io.git
   branch: master
-  repo:git@git.coding.net:{liudl}/{liudl}, master
+  #repo:git@git.coding.net:{liudl}/{liudl}, master

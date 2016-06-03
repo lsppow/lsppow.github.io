@@ -1,7 +1,8 @@
 ---
 title: google AlphaGo and AI
 date: 2016-01-30 12:41:54
-tags:
+categories: 2016
+tags: [2016, AI]   #yaml语法
 ---
 
 最近2天，Google又搞了个大新闻啊，还上了Nature封面。Google收购的这个DeepMind很给力啊。
