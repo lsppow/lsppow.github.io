@@ -22,6 +22,7 @@ hexo -v    //hexo: 3.2.0
 
 hexo g
 hexo server -i 127.0.0.1 -p 5000
+hexo d
 
 history 
 history > 2016-0602-log.txt
@@ -31,8 +32,13 @@ gitk --all&    //GUI显示
 git push origin source:source
 ```
 
-#### Hexo/themes/modernist/* 主题目录
+#### Hexo/themes/modernist/ 主题目录
 ```java
 配置 .yml 
 写作 .md
+```
+
+#### Hexo/ deploy
+```java
+Hexo/_config.yml
 ```
