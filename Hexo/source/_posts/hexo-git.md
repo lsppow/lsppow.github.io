@@ -5,8 +5,7 @@ categories: 2016
 tags: [2016, git, hexo]   #yaml语法,用逗号+空白区隔 sep=', '
 ---
 
-### git clone -b source
-
+### git clone -b source 分支备份.md源文件
 ```scala
 git clone -b source *.io hexo-github5
 
@@ -32,11 +31,13 @@ gitk --all&    //GUI显示
 git push origin source:source
 ```
 
+
 #### Hexo/themes/modernist/ 主题目录
 ```java
 配置 .yml 
 写作 .md
 ```
+
 
 #### Hexo/ deploy
 ```java
