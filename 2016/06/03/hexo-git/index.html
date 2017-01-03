@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  
+  <title>hexo-git | 技术人生</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+    <meta name="author" content="liudl">
+  
+  
+    <meta name="description" content="git clone -b source12345678910111213141516171819202122git clone -b source *.io hexo-github5// 必须在Hexo目录下，安装hexo包cd Hexo/    // ***/Hexo (source)npm install -g hexo-cli  // 安装hexonpm install">
+  
+  <meta name="description" content="git clone -b source12345678910111213141516171819202122git clone -b source *.io hexo-github5// 必须在Hexo目录下，安装hexo包cd Hexo/    // ***/Hexo (source)npm install -g hexo-cli  // 安装hexonpm install">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo-git">
+<meta property="og:url" content="http://yoursite.com/2016/06/03/hexo-git/index.html">
+<meta property="og:site_name" content="技术人生">
+<meta property="og:description" content="git clone -b source12345678910111213141516171819202122git clone -b source *.io hexo-github5// 必须在Hexo目录下，安装hexo包cd Hexo/    // ***/Hexo (source)npm install -g hexo-cli  // 安装hexonpm install">
+<meta property="og:updated_time" content="2017-01-03T09:43:24.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo-git">
+<meta name="twitter:description" content="git clone -b source12345678910111213141516171819202122git clone -b source *.io hexo-github5// 必须在Hexo目录下，安装hexo包cd Hexo/    // ***/Hexo (source)npm install -g hexo-cli  // 安装hexonpm install">
+  
+    <link rel="alternate" href="/atom.xml" title="技术人生" type="application/atom+xml">
+  
+  
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script><![endif]-->
+  
+  
+<!-- //插入统计代码 -->
+
+</head>
+<body>
+  <div class="wrapper">
+    <header id="header">
+  <div class="title">
+    <h1><a href="/">技术人生</a></h1>
+    <p><a href="/"></a></p>
+  </div>
+  <nav class="nav">
+    <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+        <li><a href="/about">About</a></li>
+      
+      
+        <li><a href="/atom.xml">RSS</a></li>
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+  <div class="clearfix"></div>
+</header>
+    <div class="content"><article class="post">
+  <header>
+    
+      <div class="icon"></div>
+      <a href="/2016/06/03/hexo-git/">
+  <time datetime="2016-06-03T06:54:58.000Z">
+    2016-06-03.5
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title">hexo-git</h1>
+  
+
+  </header>
+  
+  <div class="entry">
+    
+      <h3 id="git-clone-b-source"><a href="#git-clone-b-source" class="headerlink" title="git clone -b source"></a>git clone -b source</h3><figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">git clone -b source *.io hexo-github5</div><div class="line"></div><div class="line"><span class="comment">// 必须在Hexo目录下，安装hexo包</span></div><div class="line">cd <span class="type">Hexo</span>/    <span class="comment">// ***/Hexo (source)</span></div><div class="line">npm install -g hexo-cli  <span class="comment">// 安装hexo</span></div><div class="line">npm install              <span class="comment">//安装依赖包--需要package.json文件</span></div><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-deployer-git   <span class="comment">// 用git部署插件</span></div><div class="line">npm install hexo-generator-feed --save <span class="comment">//RSS插件</span></div><div class="line"><span class="comment">// no hexo init</span></div><div class="line">hexo -v    <span class="comment">//hexo: 3.2.0</span></div><div class="line"></div><div class="line">hexo g</div><div class="line">hexo server -i <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span> -p <span class="number">5000</span></div><div class="line">hexo d</div><div class="line"></div><div class="line">history </div><div class="line">history &gt; <span class="number">2016</span><span class="number">-0602</span>-log.txt</div><div class="line"></div><div class="line">git branch -av <span class="comment">//显示分支</span></div><div class="line">gitk --all&amp;    <span class="comment">//GUI显示</span></div><div class="line">git push origin source:source</div></pre></td></tr></table></figure>
+<h4 id="Hexo-themes-modernist-主题目录"><a href="#Hexo-themes-modernist-主题目录" class="headerlink" title="Hexo/themes/modernist/ 主题目录"></a>Hexo/themes/modernist/ 主题目录</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">配置 .yml </div><div class="line">写作 .md</div></pre></td></tr></table></figure>
+<h4 id="Hexo-deploy"><a href="#Hexo-deploy" class="headerlink" title="Hexo/ deploy"></a>Hexo/ deploy</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hexo/_config.yml</div></pre></td></tr></table></figure>
+    
+  </div>
+  <footer>
+    
+      
+  <div class="categories">
+    <a class="categories-link" href="/categories/2016/">2016</a>
+  </div>
+
+      
+  <div class="tags">
+    <a class="tags-link" href="/tags/2016/">2016</a>, <a class="tags-link" href="/tags/git/">git</a>, <a class="tags-link" href="/tags/hexo/">hexo</a>
+  </div>
+
+      
+  <div class="share">
+    
+      <script type="text/javascript">
+      (function(){
+      var p = {
+      url:location.href, /*获取URL，可加上来自分享到QQ标识，方便统计*/
+      desc:'hexo-git - 技术人生', /*分享理由(风格应模拟用户对话),支持多分享语随机展现（使用|分隔）*/
+      title:'', /*分享标题(可选)*/
+      summary:'', /*分享摘要(可选)*/
+      pics:'', /*分享图片(可选)*/
+      flash: '', /*视频地址(可选)*/
+      site:'技术人生', /*分享来源(可选) 如：QQ分享*/
+      style:'101',
+      width:96,
+      height:24
+      };
+      var s = [];
+      for(var i in p){
+      s.push(i + '=' + encodeURIComponent(p[i]||''));
+      }
+      document.write(['<a class="qcShareQQDiv" href="http://connect.qq.com/widget/shareqq/index.html?',s.join('&'),'" target="_blank">分享到QQ</a>'].join(''));
+      })();
+      </script>
+    
+  </div>
+  <script src="http://connect.qq.com/widget/loader/loader.js" widget="shareqq" charset="utf-8"></script>
+
+    
+    <div class="clearfix"></div>
+  </footer>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">评论</h1>
+  <div class="ds-thread" data-thread-key="2016/06/03/hexo-git/" data-title="hexo-git" data-url="http://yoursite.com/2016/06/03/hexo-git/"></div>
+</section>
+</div>
+  </div>
+  
+  <div id="sidebar" class="widgets-right">
+  
+<div class="widget category">
+  <h3 class="title">categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/2016/">2016</a><small>3</small></li>
+  
+    <li><a href="/categories/test/">test</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tagcloud">
+  <h3 class="title">tagcloud</h3>
+  <div class="entry">
+    <a href="/tags/2016/" style="font-size: 20px;">2016</a> <a href="/tags/AI/" style="font-size: 10px;">AI</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/test/" style="font-size: 10px;">test</a>
+  </div>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">recent_posts</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2017/01/03/hello-world/">Hello World</a>
+      </li>
+    
+      <li>
+        <a href="/2016/06/03/hexo-git/">hexo-git</a>
+      </li>
+    
+      <li>
+        <a href="/2016/01/30/google-AlphaGo-and-AI/">google AlphaGo and AI</a>
+      </li>
+    
+      <li>
+        <a href="/2016/01/21/2016年之反思/">2016年之反思</a>
+      </li>
+    
+      <li>
+        <a href="/2016/01/07/test/">test</a>
+      </li>
+    
+  </ul>
+</div>
+
+</div>
+  
+  <footer id="footer"><div class="copyright">
+  
+  &copy; 2017 <a href="/">liudl</a>
+  
+</div>
+<div class="theme-copyright">
+  Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>
+   | 
+  Redesign by <a href="http://blog.dafengning.com/" target="_blank">Chong Zi</a>
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//lib.sinaapp.com/js/jquery/1.8/jquery.min.js"></script>
+<script src="/js/scale.fix.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"liudl"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>
+
+
+<div id="rightfix" style="display:none;">
+
+<a href="#comment" id="gocomm" class="fix_btn" title="提问/评论"><i><i></i></i></a>
+
+
+<a href="javascript:void(0)" id="gotop" class="fix_btn" onclick="gotop();" title="回到顶部"><i></i></a>
+<script>
+  function gotop(){
+    $('html,body').animate({
+        scrollTop : '0px'
+      }, 800);
+  }
+  $(function(){
+    _rightfix = $('#rightfix');
+    $(window).scroll(function(){
+      $sollTop = document.documentElement.scrollTop + document.body.scrollTop;
+      if($sollTop > 350){
+        _rightfix.show();
+      }else{
+        _rightfix.hide();
+      }
+    });
+  });
+</script>
+
+</div>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+  (function($){
+    $('.fancybox').fancybox();
+  })(jQuery);
+</script>
+
+</body>
+</html>
