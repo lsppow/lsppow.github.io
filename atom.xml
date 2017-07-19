@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-19T06:26:54.000Z</updated>
+  <updated>2017-07-19T06:33:31.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Myth and Truth</title>
+    <link href="http://yoursite.com/2017/07/19/Myth-and-Truth/"/>
+    <id>http://yoursite.com/2017/07/19/Myth-and-Truth/</id>
+    <published>2017-07-19T06:28:49.000Z</published>
+    <updated>2017-07-19T06:33:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>no CJK</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;no CJK&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="2017" scheme="http://yoursite.com/categories/2017/"/>
+    
+    
+      <category term="2017" scheme="http://yoursite.com/tags/2017/"/>
+    
+      <category term="research" scheme="http://yoursite.com/tags/research/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo-git</title>
