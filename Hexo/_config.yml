@@ -65,13 +65,13 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 #theme: lightum
 theme: modernist
+#theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  #repository: git@github.com:liudonglei/liudonglei.github.io.git
+- type: git
+  repository: git@github.com:lsppow/lsppow.github.io.git
   #repository: https://github.com/liudonglei/liudonglei.github.io.git
-  repository: https://github.com/lsppow/lsppow.github.io.git
+  #repository: https://github.com/lsppow/lsppow.github.io.git
   branch: master
-  #repo:git@git.coding.net:{liudl}/{liudl}, master
